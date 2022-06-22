@@ -10,7 +10,7 @@ function setup() {
 }
 
 function draw() {
-    image(video, 322, 240, 200, 200);
+    image(video, 320, 240, 200, 200);
    fill(255, 0, 0);
     circle(100, 100, 100, 100, 30);
     circle(100, 400, 100, 100, 30);
