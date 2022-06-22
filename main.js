@@ -10,9 +10,12 @@ function setup() {
 }
 
 function draw() {
-    image(video, 0, 0, 640, 480);
+    image(video, 0, 0, 200, 200);
    fill(255, 0, 0);
-    circle(10, 10, 20, 20, 30);
+    circle(100, 100, 100, 100, 30);
+    circle(100, 300, 100, 100, 30);
+    circle(300, 100, 100, 100, 30);
+
 }
 
 function take_snapshot() {
